@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: grey; */
+    background: url(./images/fondo.png);
+    /* max-width: 7rem; */
+    justify-content: center;
+}
+
+#character {
+    font-size: 4rem;
+    color: rgb(0, 0, 0);
+
+}
+
+#pCard{
+    margin-left: 0.4rem;
+    border-radius: 0 0 1rem 1rem;
+    text-align: center;
+    width: 97%;
+    height: 35%;
+    background: rgb(167, 234, 236);
+    color:rgb(0, 0, 0);
+    font-size: 1.7rem;
+}
+
+#card{
+    height: 35rem;
+    width: 30rem;
+    background: white;
+    border: 5px solid rgb(167, 234, 236);
+    border-radius: 20px;
+    box-shadow:  0 0 20px rgb(167, 234, 236);
+    margin-top: 1rem;
+}
+
+#card > img{
+    /* margin-left: 8rem; */
+    border-radius:10px;
+    height: 60%;
+    width: 40%;
+    margin: 0.5rem 0 0.5rem 9rem;
+}
+
+button{
+    /* width: 100px; */
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: 3px solid white;
+    background: white;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+button:hover{
+    background:rgb(167, 234, 236);
+    color: black;
+    border: rgb(167, 234, 236);
+    box-shadow: 0 0 20px rgb(167, 234, 236);
+}
